@@ -1,0 +1,32 @@
+{
+  "version": "2.2.0",
+  "files": {
+    "m3u": {
+      "source": "local",
+      "local": "/config/iptv.m3u",
+      "remote": "",
+      "update": 3600
+    },
+    "epg": {
+      "source": "none",
+      "local": "",
+      "remote": "",
+      "update": 3600
+    }
+  },
+  "filter": {
+    "country": ["ES", "GB", "US", "JP"],
+    "regex": "anime|crunchyroll|animax|toonami|ghibli|wakanim|animetime|animeplus|anione|animeone",
+    "custom": ""
+  },
+  "settings": {
+    "port": 34400,
+    "tuner": 1,
+    "buffer": 1000,
+    "tuners": 4,
+    "epgSource": "PMS",
+    "channelLimit": 480,
+    "unfilteredLimit": 480,
+    "bufferSize": 1000
+  }
+}

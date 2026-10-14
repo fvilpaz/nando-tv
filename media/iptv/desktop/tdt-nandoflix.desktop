@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=TDT Nandoflix
+GenericName=Televisión en directo
+Comment=576 canales TDT — lista oficial TDTChannels con EPG
+Exec=/home/nando/.local/share/nandoflix/tdt.sh
+Icon=/home/nando/.local/share/icons/tdt-nandoflix.png
+Terminal=false
+Type=Application
+Categories=AudioVideo;TV;Video;
+Keywords=tv;tdt;canal;television;nandoflix;
+StartupNotify=true
+StartupWMClass=tdt-nandoflix

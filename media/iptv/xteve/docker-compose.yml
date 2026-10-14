@@ -1,0 +1,18 @@
+services:
+  xteve:
+    image: alturismo/xteve:latest
+    container_name: xteve
+    ports:
+      - "34400:34400"
+    volumes:
+      - ./xteve:/config
+    environment:
+      - XTEVE_PORT=34400
+      - XTEVE_M3U=https://iptv-org.github.io/iptv/index.m3u
+      - XTEVE_EPG=https://iptv-org.github.io/iptv/epg.xml
+      - XTEVE_COUNTRY=ES,GB,US,JP
+      - XTEVE_FILTER=anime|crunchyroll|animax|toonami|ghibli|wakanim|animetime|animeplus|anione|animeone
+      - XTEVE_REFRESH=3600
+      - XTEVE_BUFFER=1000
+      - XTEVE_TUNERS=4
+    restart: unless-stopped

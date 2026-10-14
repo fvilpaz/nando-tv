@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=IPTV Nandoflix
+GenericName=Televisión internacional
+Comment=2051 canales internacionales filtrados y validados — lista propia (ES/UK/US/JP + Anime)
+Exec=/home/nando/.local/share/nandoflix/iptv.sh
+Icon=/home/nando/.local/share/icons/iptv-nandoflix.png
+Terminal=false
+Type=Application
+Categories=AudioVideo;TV;Video;
+Keywords=iptv;internacional;anime;tv;canal;nandoflix;
+StartupNotify=true
+StartupWMClass=iptv-nandoflix

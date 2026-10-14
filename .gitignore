@@ -1,0 +1,21 @@
+# Listas M3U generadas (grandes y cambian a diario) — no versionar
+*.m3u
+*.m3u8
+*.ts
+
+# Backups y logs
+*.bak-*
+*.log
+.tdt_channels.raw.m3u8
+
+# Python
+__pycache__/
+*.pyc
+
+# Node / opencode deps
+node_modules/
+.opencode/package-lock.json
+
+# Secretos / locales
+.env
+*.local
